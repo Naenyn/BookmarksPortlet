@@ -276,13 +276,6 @@
         <groupId>net.sf.alchim</groupId>
         <artifactId>yuicompressor-maven-plugin</artifactId>
         <version>0.7.1</version>
-        <dependencies>
-          <dependency>
-            <groupId>org.codehaus.plexus</groupId>
-            <artifactId>plexus-utils</artifactId>
-            <version>3.5.1</version>
-          </dependency>
-        </dependencies>
         <executions>
           <execution>
             <goals><goal>compress</goal></goals>
